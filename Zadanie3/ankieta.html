@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=".\wynik.php" method="post">
+        <p>1. Ulubione owoce (lista): 
+        <select name="fruit">
+            <option value="Jabłko">Jabłko</option>
+            <option value="Banan">Banan</option>
+            <option value="Truskawka">Truskawka</option>
+        </select></p>
+
+        <p>2. Wykształcenie (radio):<br>
+        <input type="radio" name="edu" value="Podstawowe"> Podstawowe<br>
+        <input type="radio" name="edu" value="Średnie"> Średnie<br>
+        <input type="radio" name="edu" value="Wyższe"> Wyższe</p>
+        
+        <p>3. Zainteresowania (checkbox):<br>
+        <input type="checkbox" name="hobby[]" value="Sport"> Sport<br>
+        <input type="checkbox" name="hobby[]" value="Muzyka"> Muzyka<br>
+        <input type="checkbox" name="hobby[]" value="IT"> IT</p>
+
+        <button type="submit">Wyśli</button>
+    </form>
+</body>
+</html>
